@@ -73,26 +73,6 @@ The C# project under `SimplSharp/` builds a single `DeConzZigbee.clz`
 SDK. The SIMPL+ wrappers under `SimplPlus/` are thin symbols that expose the
 SIMPL# classes to SIMPL Windows.
 
-Core infrastructure:
-
-- `DeConzBroker.cs` — static message bus and gateway IP holder
-- `DeConzJsonParser.cs` — shared depth-aware JSON micro-parser
-- `DeConzWebSocketClient.cs` — gateway connection: TCP/TLS, RFC-6455 handshake
-  and frame decoder, ping/pong keepalive, exponential reconnect
-
-Device modules:
-
-- `DeConzDevice.cs` — generic raw-JSON passthrough for one or more endpoints
-- `DeConzKeypad.cs` — Zigbee keypads / remotes: button events, battery, online
-- `DeConzLightWs.cs` — lights: HTTP commands with WebSocket feedback
-- `DeConzValve.cs` — irrigation valve: on/off endpoint plus water sensor
-- `DeConzShade.cs` — window coverings: lift, tilt, stop, position feedback
-- `DeConzThermostat.cs` — thermostats (ZHAThermostat): setpoints, mode, valve
-- `DeConzClimate.cs` — environment sensors: temperature, humidity, pressure
-- `DeConzContact.cs` — door/window contact sensors (ZHAOpenClose)
-- `DeConzGroupControl.cs` — group control (on/off, level, colour, scenes)
-- `DeConzScene.cs` — scene recall and store
-
 Each device module has a matching `DeConz_*_Wrapper` SIMPL+ symbol.
 
 ---
