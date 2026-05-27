@@ -8,6 +8,7 @@ deCONZ REST API via HTTP; live feedback arrives over a WebSocket connection.
 No signal routing between modules is required — a static broker distributes
 gateway data to every device module automatically.
 
+This is a full refactor from pure SIMPL+ (not publicly available) to SIMPL+ wrappers and SIMPL# modules.
 ---
 
 ## Architecture
