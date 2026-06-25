@@ -1,3 +1,15 @@
+> [!WARNING]
+> **⚠️ Deprecated — this repository is no longer maintained.**
+>
+> Development has moved to a new, actively maintained suite:
+> **➡️ [deCONZ_Zigbee_Crestron](https://github.com/disnamic/deCONZ_Zigbee_Crestron)**
+>
+> Please use the new repository for the current version (v4.1+) and all future
+> updates. The code here corresponds to the old v3.1 release and will not receive
+> further changes.
+
+---
+
 # DeConz Zigbee – Crestron SIMPL# Module Suite v3.1
 
 **First public release.** Contact: martin@disnamic.com
